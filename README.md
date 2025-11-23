@@ -6,17 +6,17 @@ The goal is to build an image-based gesture recognition system for Human–Machi
 📁 Project Structure
 HandGestureRecognition/
 │
-├── training.ipynb                # Training notebook
+├── training.ipynb # Training notebook
 │
 ├── models/
-│   └── hand_gesture_model.keras  # Saved trained model
+│ └── hand_gesture_model.keras # Saved trained model
 │
-├── data/                         # Dataset (optional)
-│   ├── sign_mnist_train.csv
-│   └── sign_mnist_test.csv
+├── data/ # Dataset (optional)
+│ ├── sign_mnist_train.csv
+│ └── sign_mnist_test.csv
 │
-├── requirements.txt              # Dependencies
-└── README.md                     # Project documentation
+├── requirements.txt # Dependencies
+└── README.md # Project documentation
 
  Features
 
@@ -82,3 +82,4 @@ Soufiane Baddah
 Zakaria Ahaji
 
 GitHub: https://github.com/BdSoufiane
+
