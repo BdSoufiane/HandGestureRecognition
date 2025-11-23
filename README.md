@@ -1,8 +1,9 @@
-# Hand Gesture Recognition using CNN
-This project implements a Convolutional Neural Network (CNN) to classify hand gestures using the Sign Language MNIST dataset.
-The goal is to build an image-based hand gesture classifier for Human–Machine Interaction.
-## 📁 Project Structure
+ Hand Gesture Recognition using CNN
 
+This project implements a Convolutional Neural Network (CNN) to classify hand gestures using the Sign Language MNIST dataset.
+The goal is to build an image-based gesture recognition system for Human–Machine Interaction (HMI).
+
+📁 Project Structure
 HandGestureRecognition/
 │
 ├── training.ipynb                # Training notebook
@@ -10,68 +11,74 @@ HandGestureRecognition/
 ├── models/
 │   └── hand_gesture_model.keras  # Saved trained model
 │
-├── data/                         # Dataset (optional to include)
+├── data/                         # Dataset (optional)
 │   ├── sign_mnist_train.csv
 │   └── sign_mnist_test.csv
 │
 ├── requirements.txt              # Dependencies
 └── README.md                     # Project documentation
 
+ Features
 
-Features
+🧠 CNN-based hand gesture classification
 
-CNN-based hand gesture classification
+📝 Training on Sign Language MNIST
 
-Training on Sign Language MNIST
+🔄 Image preprocessing (reshape, normalization)
 
-Preprocessing, normalization, reshaping
+📈 Training & validation accuracy and loss curves
 
-Training & validation accuracy and loss curves
+🧮 Confusion matrix visualization
 
-Confusion matrix
+🔍 Single-image prediction example
 
-Single-image prediction example
+💾 Model saved in .keras format
 
-Model saved in .keras format
+🔧 Installation
 
-## 🔧 Installation
+Install all dependencies:
 
 pip install -r requirements.txt
 
-## ▶️ Training
+▶️ Training
 
-Open the notebook:
+Open and run the notebook:
 
-hand_gesture_project.ipynb
+training.ipynb
 
 
-It includes:
+The notebook includes:
 
-Data loading
+Dataset loading
 
 Preprocessing
 
-Model creation
+CNN model architecture
 
-Training & evaluation
+Model training
+
+Evaluation on the test set
+
+Confusion matrix
+
+Prediction examples
 
 Saving the model
 
-Plotting curves & confusion matrix
-
-Results
+📊 Results
 
 Test Accuracy: ~89%
 
-Confusion Matrix: included
+✔️ Confusion Matrix included
 
-Training/Validation curves: included
+✔️ Accuracy / Loss curves included
 
-Correct predictions visualized
+✔️ Example predictions included
 
+👥 Authors
 
-Author
+Soufiane Baddah
 
-Soufiane Baddah - Zakaria Ahaji
+Zakaria Ahaji
+
 GitHub: https://github.com/BdSoufiane
-
